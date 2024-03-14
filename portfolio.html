@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        ul{
+            list-style: none;
+            display: flex;
+            margin-left: 50px;
+        }
+        .left{
+            padding-left: 300px;
+            
+        }
+        .home{
+            margin-left: 50px;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        .red{
+            color: red;
+        }
+        .home:hover{
+            color: red;
+        }
+        .hname{
+            margin-top: 200px;
+            margin-left: 100px;
+            color: rgb(247, 56, 56);
+        }
+        .nitin{
+            font-size: 70px;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        .iam{
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        .one{
+            height: 40px;
+            width: 300px;
+            background-color: rgb(246, 246, 251);
+            border-radius: 20px;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        .one:hover{
+            box-shadow: 0px 0px 10px 0px  silver;
+        }
+        .two{
+            height: 40px;
+            width: 300px;
+            background-color: red;
+            border: 5px solid red;
+            border-radius: 20px;
+            
+            
+        }
+        .two:hover{
+            height: 40px;
+            width: 150px;
+            margin-left: 150px;
+            box-shadow: 0px 0px 10px 0px silver;
+        }
+        .backblack{
+            background-color: black;
+        }
+        .myimg{
+            margin-left: 200px;
+            margin-top: 200px;
+            border-radius: 20px;
+        }
+        .display{
+            display: flex;
+        }
+        .aboutme{
+            margin-left: 200px;
+            margin-top: 200px;
+        }
+        .about{
+            font-size: 50px;
+            font-weight: 200;
+            color: white;
+        }
+        .developer{
+            margin-left: 200px;
+            margin-top: 20px;
+            color: rgb(250, 78, 78);
+        }
+        .phra{
+            margin-left: 200px;
+            margin-top: 20px;
+            color: white;
+            font-size: 20px;
+            width: 500px;
+        }
+        .lettalkbtn{
+            background-color: rgb(249, 53, 53);
+            border-radius: 20px;
+            border: 5px solid rgb(249, 53, 53);
+            width: 200px;
+            margin-left: 200px;
+        }
+        .lettalkbtn:hover{
+            box-shadow: 0px 0px 10px 0px  silver;
+        }
+        .myskills{
+            text-align: center;
+            color: white;
+            margin-top: 100px;
+        }
+        .progress{
+            width: 1000px;
+            margin-left: 15%;
+            margin-top:25px;
+            height: 25px;
+        }
+        .myskill{
+            margin-left: 15%;
+            color: white;
+            margin-top: 50px;
+        }
+        .tcard{
+            display: flex;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+        .cardd{
+            margin-left: 100px;
+            background-color: rgb(39, 39, 39);
+            border-radius: 20px;
+            height: 400px;
+        }
+        .ticn{
+            color: red;
+            justify-content: center;
+            display: flex;
+            margin-top: 15px;
+            font-size: 20px;
+            
+        }
+        .fontst{
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+            color: white;
+        }
+        .cp{
+            text-align: center;
+            color: lightcoral;
+            margin-top: 10px;
+        }
+        .cardbtn{
+            background-color: red;
+            border-radius: 20px;
+            border: 5px;
+            margin-left: 75px;
+        }
+        .cardbtn:hover{
+            box-shadow: 0px 0px 10px 0px  silver;
+        }
+        .wblack{
+            background-color: black;
+            
+        }
+        .Recentp{
+            text-align: center;
+            font-size: 75px;
+            font-weight: 50px;
+            padding-top: 100px;
+            color: white;
+            
+        }
+        .prone{
+            margin-left: 200px;
+            color: white;
+        }
+        .margin-top{
+            margin-top: 75px;
+        }
+        .Lorem{
+            color: white;
+            margin-left: 200px;
+            width: 1000px;
+        }
+        .projectss{
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+        .visitbtn{
+            background-color: red;
+            border-radius: 20px;
+            border: 5px solid red;
+            width: 200px;
+            margin-top: 50px;
+            color: white;
+            margin-left: 650px;
+        }
+        .visitbtn:hover{
+            box-shadow: 0px 0px 10px 0px  silver;
+        }
+        .id{
+            color: white;
+            margin-left: 225px;
+            margin-top: 50px;
+        }
+        #fac{
+            color: blue;
+        }
+        #ins{
+            color: rgb(238, 39, 85);
+        }
+        #what{
+            color: rgb(38, 165, 38);
+        }
+        .contactfom{
+            margin-left: 250px;
+            margin-top: 10px;
+            
+        }
+        .contacttxt{
+            width: 1000px;
+            border-radius: 10px;
+        }
+        .white{
+            color: white;
+        }
+        .Submitbtn{
+            background-color: rgb(249, 53, 53);
+            border: 5px solid rgb(249, 53, 53);
+
+        }
+        .Submitbtn:hover{
+            box-shadow: 0px 0px 10px 0px  silver;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+  <div>
+
+    <div class="card text-bg-dark">
+        <img src="https://rare-gallery.com/thumbs/556931-boy-child-cute.jpg" class="card-img" alt="..." height="750px" width="100%">
+        <div class="card-img-overlay">
+
+        <ul>
+        <li> <h1>𝓹𝓸𝓻𝓽𝓯𝓸 <span class="red">𝓵𝓲𝓸 <i class="fa-solid fa-moon"></i> </span></h1> </li>
+        <li class="home left"> <i class="fa-solid fa-house"></i> home</li>
+        <li class="home"> <i class="fa-solid fa-address-card"></i> about us</li>
+        <li class="home"> <i class="fa-solid fa-book-bookmark"></i> skills</li>
+        <li class="home"> <i class="fa-solid fa-briefcase"></i> projects</li>
+        <li class="home"> <i class="fa-solid fa-address-book"></i> contact us</li>
+        </ul>
+
+        <div>
+        <h5 class="hname red">𝓱𝓮𝓵𝓵𝓸,𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼</h5>
+        <h1 class="nitin">𝒩𝒾𝓉𝒾𝓃 𝒮𝒶𝒾𝓃𝒾</h1>
+        <h4 class="iam">𝐼'𝒶𝓂 𝒶 𝒻𝓇𝑜𝓃𝓉 𝑒𝓃𝒹 𝒹𝑜𝓋𝑒𝓁𝑜𝓅𝑒𝓇 </h4>
+        </div>
+
+        <div class="one">
+            <div >
+            <button class="two">let start</button>
+            </div>
+        </div>
+        </div>
+      </div>
+
+<div class="backblack ">
+
+<div class="display"><img class="myimg" src=" IMG-20240225-WA0013 (1).jpg " alt="" height="500px" width="400px" >
+    <div>
+        <h1 class="aboutme about"> 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 </h1>
+        <H3 class="developer">𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓻 & 𝓓𝓮𝓼𝓲𝓰𝓷𝓮𝓻</H3>
+        <p class="phra">𝐼 𝒶𝓂 𝒻𝓇𝑜𝓃𝓉-𝑒𝓃𝒹 𝓊𝒾/𝓊𝓍 𝒹𝑒𝓋𝑒𝓁𝑜𝓅𝑒𝓇 . 𝐼 𝒸𝒶𝓃 𝓅𝓇𝑜𝓋𝒾𝒹𝑒 𝒸𝓁𝑒𝒶𝓃 𝒸𝑜𝒹𝑒 𝒶𝓃𝒹 𝓅𝒾𝓍𝑒𝓁 𝓅𝑒𝓇𝒻𝑒𝒸𝓉 𝒹𝑒𝓈𝒾𝑔𝓃 𝒹𝑒𝓈𝒾𝑔𝓃 . 𝐼 𝒶𝓁𝓈𝑜 𝓂𝒶𝓀𝑒 𝓉𝒽𝑒 𝓌𝑒𝒷𝓈𝒾𝓉𝑒 𝓂𝑜𝓇𝑒 & 𝓂𝑜𝓇𝑒 𝒾𝓃𝓉𝑒𝓇𝒶𝒸𝓉𝒾𝓋𝑒 𝓌𝒾𝓉𝒽 𝓌𝑒𝒷  𝒶𝓃𝒾𝓂𝒶𝓉𝒾𝑜𝓃 . 𝒜  𝓇𝑒𝓈𝓅𝑜𝓃𝓈𝒾𝓋𝑒 𝒹𝑒𝓈𝒾𝑔𝓃 𝓂𝒶𝓀𝑒𝓈 𝓎𝑜𝓊𝓇 𝓌𝑒𝒷𝓈𝒾𝓉𝑒 𝒶𝒸𝒸𝑒𝓈𝓈𝒾𝒷𝓁𝑒 𝓉𝑜 𝒶𝓁𝓁 𝓊𝓈𝑒𝓇𝓈, 𝓇𝑒𝑔𝒶𝓇𝒹𝓁𝑒𝓈𝓈 𝑜𝒻 𝓉𝒽𝑒𝒾𝓇 𝒹𝑒𝓋𝒾𝒸𝑒</p>
+        <button class="lettalkbtn">Let's talk</button>
+        
+    </div>
+</div>
+
+
+<div>
+<h1 class="myskills">My Skills </h1>
+
+<h5 class="myskill">front end <span class="red">development</span></h5> 
+<div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+   <div class="progress-bar bg-success" style="width: 98% ">98%</div>
+  </div>
+
+  <h5 class="myskill">ui/ux <span class="red">development</span></h5>
+  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-info text-dark" style="width: 90%">90%</div>
+  </div>
+
+  <h5 class="myskill">web <span class="red">development</span></h5>
+  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-warning text-dark" style="width: 85%">75%</div>
+  </div>
+  </div>
+
+
+<div>
+
+    <h1 class="myskills">Over View </h1>
+    <div class="tcard">
+        <div class="cardd" style="width: 18rem;">
+            <div class="card-body">
+                <i class="fa-solid fa-bars ticn"></i>
+              <h5 class="card-title fontst">𝓯𝓻𝓸𝓷𝓽 𝓮𝓷𝓭 𝓭𝓮𝓿𝓮𝓵𝓸𝓹𝓶𝓮𝓷𝓽</h5>
+              <p class="card-text cp">I Have Good Knowledge Of HTML,CSS,Javascript & Anjular I Will Give Best Work To The Company From My Side . </p>
+              <button class="cardbtn"> downlod resume </button>
+            </div>
+          </div>
+          
+          <div class="cardd" style="width: 18rem;">
+            <div class="card-body">
+                <i class="fa-solid fa-bars ticn"></i>
+              <h5 class="card-title fontst">𝓾𝓲/𝓾𝔁 𝓭𝓮𝓿𝓮𝓵𝓸𝓹𝓶𝓮𝓷𝓽</h5>
+              <p class="card-text cp">I Have Good Knowledge Of Figma,Wirefram,Webflow,canva,miro, & Adobe will Give Best Work To The Comany From My Side.</p>
+              <button class="cardbtn"> downlod resume </button>
+            </div>
+          </div>
+          
+          <div class="cardd" style="width: 18rem;">
+            <div class="card-body">
+                <i class="fa-solid fa-bars ticn"></i>
+              <h5 class="card-title fontst ">𝔀𝓮𝓫 𝓭𝓮𝓿𝓮𝓵𝓸𝓹𝓶𝓮𝓷𝓽</h5>
+              <p class="card-text cp">I Have Good Knowledge Of Responsive Web Designing Skills , 
+                HTML,CSS,Javascript,Web Hosting & search Engine Optimisation (SEO) Skills.
+              </p>
+              <button class="cardbtn"> downlod resume </button>
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+
+<div class="wblack">
+<div>
+    <h1 class="Recentp">𝐑𝐞𝐜𝐞𝐧𝐭  <span class="red">𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬</span> </h1>
+    <h2 class="prone margin-top">𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬 𝟏</h2>
+    <h2 class="prone">𝓒𝓸𝓭𝓲𝓷𝓰 𝓲𝓼 <span class="red">𝓵𝓸𝓿𝓮</span></h2>
+    <h5 class="Lorem">𝓛𝓸𝓻𝓮𝓶 𝓲𝓹𝓼𝓾𝓶 𝓭𝓸𝓵𝓸𝓻 𝓼𝓲𝓽 𝓪𝓶𝓮𝓽 𝓬𝓸𝓷𝓼𝓮𝓬𝓽𝓮𝓽𝓾𝓻, 𝓪𝓭tre𝓲𝓹𝓲𝓼𝓲𝓬𝓲𝓷𝓰 𝓮𝓵𝓲𝓽. 𝓓𝓸𝓵𝓸𝓻𝓲𝓫𝓾𝓼 𝓷𝓲𝓼𝓲 𝓷𝓾𝓵𝓵𝓪 𝓯𝓪𝓬𝓲𝓵𝓲𝓼, 𝓷𝓸𝓫𝓲𝓼 𝓭𝓮𝓵𝓮𝓷𝓲𝓽𝓲 𝓮𝔁𝓹𝓵𝓲𝓬𝓪𝓫𝓸 𝓶𝓸𝓵𝓵𝓲𝓽𝓲𝓪 𝓷𝓸𝓷 𝓺𝓾𝓪𝓮𝓻𝓪𝓽 𝓼𝓲𝓷𝓽 𝓭𝓸𝓵𝓸𝓻 𝓿𝓲𝓽𝓪𝓮 𝓽𝓮𝓶𝓹𝓸𝓻𝓲𝓫𝓾𝓼 𝓵𝓪𝓫𝓸𝓻𝓮 𝓽𝓮𝓶𝓹𝓸𝓻𝓮 𝓪𝓶𝓮𝓽 𝓪𝓻𝓬𝓱𝓲𝓽𝓮𝓬𝓽𝓸 𝓪𝓷𝓲𝓶𝓲 𝓪𝓾𝓽𝓮𝓶 𝓪𝓼𝓹𝓮𝓻𝓲𝓸𝓻𝓮𝓼 𝓿𝓮𝓻𝓸  𝓶𝓸𝓭𝓲 𝓹𝓻𝓸𝓿𝓲𝓭𝓮𝓷𝓽 𝓾𝓷𝓭𝓮 𝓽𝓮𝓷𝓮𝓽𝓾𝓻 𝓯𝓾𝓰𝓲𝓽?</h5>
+    <img class="projectss" src="Screenshot (2).png" alt="" height="600px" width="1000px">
+    <div><a href="1stproject.html"><button class="visitbtn">visit my project</button></a></div>
+</div>
+
+<div>
+    <h2 class="prone margin-top">𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬 𝟐</h2>
+    <h2 class="prone">𝓒𝓸𝓭𝓲𝓷𝓰 𝓲𝓼 <span class="red">𝓵𝓸𝓿𝓮</span></h2>
+    <h5 class="Lorem">𝓛𝓸𝓻𝓮𝓶 𝓲𝓹𝓼𝓾𝓶 𝓭𝓸𝓵𝓸𝓻 𝓼𝓲𝓽 𝓪𝓶𝓮𝓽 𝓬𝓸𝓷𝓼𝓮𝓬𝓽𝓮𝓽𝓾𝓻, 𝓪𝓭tre𝓲𝓹𝓲𝓼𝓲𝓬𝓲𝓷𝓰 𝓮𝓵𝓲𝓽. 𝓓𝓸𝓵𝓸𝓻𝓲𝓫𝓾𝓼 𝓷𝓲𝓼𝓲 𝓷𝓾𝓵𝓵𝓪 𝓯𝓪𝓬𝓲𝓵𝓲𝓼, 𝓷𝓸𝓫𝓲𝓼 𝓭𝓮𝓵𝓮𝓷𝓲𝓽𝓲 𝓮𝔁𝓹𝓵𝓲𝓬𝓪𝓫𝓸 𝓶𝓸𝓵𝓵𝓲𝓽𝓲𝓪 𝓷𝓸𝓷 𝓺𝓾𝓪𝓮𝓻𝓪𝓽 𝓼𝓲𝓷𝓽 𝓭𝓸𝓵𝓸𝓻 𝓿𝓲𝓽𝓪𝓮 𝓽𝓮𝓶𝓹𝓸𝓻𝓲𝓫𝓾𝓼 𝓵𝓪𝓫𝓸𝓻𝓮 𝓽𝓮𝓶𝓹𝓸𝓻𝓮 𝓪𝓶𝓮𝓽 𝓪𝓻𝓬𝓱𝓲𝓽𝓮𝓬𝓽𝓸 𝓪𝓷𝓲𝓶𝓲 𝓪𝓾𝓽𝓮𝓶 𝓪𝓼𝓹𝓮𝓻𝓲𝓸𝓻𝓮𝓼 𝓿𝓮𝓻𝓸  𝓶𝓸𝓭𝓲 𝓹𝓻𝓸𝓿𝓲𝓭𝓮𝓷𝓽 𝓾𝓷𝓭𝓮 𝓽𝓮𝓷𝓮𝓽𝓾𝓻 𝓯𝓾𝓰𝓲𝓽?</h5>
+    <img class="projectss" src="Screenshot (3).png" alt="" height="600px" width="1000px">
+    <div><a href="2ndproject.html"><button class="visitbtn">visit my project</button></a></div>
+</div>
+
+<div>
+
+<h1 class="myskills">𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 </h1>
+
+<div class="display">
+<h1 class=" id" id="fac"><i class="fa-brands fa-facebook"></i>  𝖋𝖆𝖈𝖇𝖔𝖔𝖐</h1>  
+<h1 class="id " id="ins"><i class="fa-brands fa-instagram"></i>  𝖎𝖓𝖘𝖙𝖆𝖌𝖗𝖆𝖒</h1> 
+ <h1 class="id" id="what"><i class="fa-brands fa-whatsapp"></i>  𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕</h1>
+</div>
+<div>
+    <form action="">
+    <label class="contactfom white" for="">  name :</label><br>
+    <input class="contactfom contacttxt" type="text" placeholder="                                           Email id:nitinsaini45670@gmail.com                                                 Contact No. 9034774543  "><br>
+    <label class="contactfom white "for="">  email :</label><br>
+    <input class="contactfom contacttxt"type="text " placeholder="                                           Email id:nitinsaini45670@gmail.com                                                 Contact No. 9034774543  "><br>
+    <label class="contactfom white "for="">  message :</label><br>
+    <input class="contactfom contacttxt"type="text" placeholder="                                           Email id:nitinsaini45670@gmail.com                                                 Contact No. 9034774543  "><br><br>
+    <input type="button" class=" Submitbtn contactfom  contacttxt " value=" Submit"><br><br><br><br><br>
+
+    </form>
+    <div></div>
+</div>
+</div>
+
+
+</div>
+
+
+  </div>  
+</body>
+</html>
